@@ -12,7 +12,10 @@ class BasicTest(unittest.TestCase):
     def test__sub_two_value(self):
         self.assertEqual(self.y + self.x, 5)
 
+    def test__div_two_value(self):
+        self.assertEqual(self.y + self.x, 5)
+
 
 if __name__ == "__main__":
-    print("third build")
+    print("fourth build")
     unittest.main()
