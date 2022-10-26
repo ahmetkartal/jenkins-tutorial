@@ -24,6 +24,7 @@ stages {
 
     steps{
 
+    echo env.BRANCH_NAME + "is being deployed"
     echo 'deploying the application'
 
     }
