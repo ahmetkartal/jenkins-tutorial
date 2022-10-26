@@ -15,7 +15,7 @@ stages {
 
     steps{
 
-    echo 'testing the application'
+    sh 'python test_basic_math.py'
 
     }
     }
