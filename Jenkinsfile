@@ -15,7 +15,7 @@ stages {
 
     steps{
 
-    sh 'python test_basic_math.py'
+    sh 'python3 test_basic_math.py'
 
     }
     }
