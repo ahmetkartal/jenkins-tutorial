@@ -14,4 +14,5 @@ class BasicTest(unittest.TestCase):
 
 
 if __name__ == "__main__":
+    print("third build")
     unittest.main()
