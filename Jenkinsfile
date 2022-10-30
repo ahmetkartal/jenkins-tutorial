@@ -9,6 +9,7 @@ stages {
     echo 'building the application'
     echo 'building the application again'
     echo 'building the application again again'
+    echo 'building the application again again again'
 
     }
     }
