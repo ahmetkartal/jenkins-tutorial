@@ -14,7 +14,15 @@ stages {
 
     steps{
 
-    sh 'python3 test_basic_math.py'
+    sh 'python3 tests/test_basic_math.py'
+
+    }
+    }
+            stage("Tox Test") {
+
+    steps{
+
+    sh 'tox'
 
     }
     }

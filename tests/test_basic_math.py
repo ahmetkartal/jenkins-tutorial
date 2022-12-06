@@ -17,5 +17,5 @@ class BasicTest(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    print("sixth buildtest")
+    print("buildtest")
     unittest.main()
