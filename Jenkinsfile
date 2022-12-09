@@ -33,6 +33,7 @@ stages {
 
     echo env.BRANCH_NAME + " is being deployed"
     echo 'deploying the application'
+    echo 'deploying test application'
 
     }
     }
