@@ -6,4 +6,4 @@ app = FastAPI()
 
 @app.get("/hello")
 def hello():
-    return JSONResponse({"message": "Hello World"})
+    return JSONResponse({"message": "Hello Ahmet"})
